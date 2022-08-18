@@ -1,16 +1,20 @@
 <!DOCTYPE html><html><head></head><body>
 
-<label>pattern-oninput 
-  <input type="number" pattern="[0-9]*" />
-</label>
-
-<label>pattern-oninput 
-  <input pattern="[0-9]*" type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'');">
-</label>
-
-<label>pattern-text
-  <input pattern="[0-9]*" type="text">
-</label>
+<p>
+  <label>pattern-oninput 
+    <input type="number" pattern="[0-9]*" />
+  </label>
+</p>
+<p>
+  <label>pattern-oninput 
+    <input pattern="[0-9]*" type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+  </label>
+</p>
+<p>
+  <label>pattern-text
+    <input pattern="[0-9]*" type="text">
+  </label>
+</p>
 
 </body></html>
 
